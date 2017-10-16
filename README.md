@@ -1,47 +1,38 @@
-[![The Super Tiny Compiler](https://cloud.githubusercontent.com/assets/952783/21579290/5755288a-cf75-11e6-90e0-029529a44a38.png)](the-super-tiny-compiler.js)
+***欢迎来到 The Super Tiny Compiler!***
 
-***Welcome to The Super Tiny Compiler!***
+这是一个超级简单的例子，旨在向大家展示现代编译器主中要的一些特点，例子采用易于阅读的 JavaScript 编写。
 
-This is an ultra-simplified example of all the major pieces of a modern compiler
-written in easy to read JavaScript.
+通过阅读下面的指南，你可以看到绝大多数现代编译器是如何从一端到另一端工作的。
 
-Reading through the guided code will help you learn about how *most* compilers
-work from end to end.
+### [点击这里跳转到源代码](the-super-tiny-compiler.js)
 
-### [Want to jump into the code? Click here](the-super-tiny-compiler.js)
-
-### [You can also check it out on Glitch](https://the-super-tiny-compiler.glitch.me/)
+### [你也可以在 Glitch 上进行查看 (英文版)](https://the-super-tiny-compiler.glitch.me/)
 
 ---
 
-### Why should I care?
+### 为什么我要去了解编译器呢？
 
-That's fair, most people don't really have to think about compilers in their day
-jobs. However, compilers are all around you, tons of the tools you use are based
-on concepts borrowed from compilers.
+事实上，绝大多数码农在日常工作中并不需要去考虑编译器相关的东西。然而，编译器其实在你的生活中处处都在，
+你使用的很多工具的原理其实都是基于一些从编译器借来的概念。
 
-### But compilers are scary!
+### 然而编译器听起来就很可怕!
 
-Yes, they are. But that's our fault (the people who write compilers), we've
-taken something that is reasonably straightforward and made it so scary that
-most think of it as this totally unapproachable thing that only the nerdiest of
-the nerds are able to understand.
+是的，编译器某种意义上确实让人听到就感觉高深莫测。然而这是我们的错（编写编译器的人），我们把非常简单
+的东西变得过于复杂到让人恐惧了，以至于想到编译器绝大多数人就觉得它是高不可攀的，并且只有书呆子门才能
+够去理解它。
 
-### Okay so where do I begin?
+### 好了那么我该如何开始呢?
 
-Awesome! Head on over to the [the-super-tiny-compiler.js](the-super-tiny-compiler.js)
-file.
+好样的! 前往 [the-super-tiny-compiler.js](the-super-tiny-compiler.js) 开始你的学习之旅吧。
 
-### I'm back, that didn't make sense
+### 我回来了，然而感觉并没什么用。
 
-Ouch, I'm really sorry. I'm planning on doing a lot more work on this to add
-inline annotations. If you want to come back when that's done, you can either
-watch/star this repo or follow me on
-[twitter](https://twitter.com/thejameskyle) for updates.
+我非常抱歉，但是我会去写更多的内联注释。如果你想等我完成这项工作后再来看，你可以 watch/star 这个 repo
+或者直接 [twitter](https://twitter.com/thejameskyle) 关注我获取更新。
 
-### Tests
+### 测试s
 
-Run with `node test.js`
+运行 `node test.js`
 
 ---
 
